@@ -26,7 +26,7 @@ public class UserResgistrationTest extends TestBase {
 		home.openSignInPage();
 		
 		obj = new AuthenticationPage(driver);
-		obj.createAccount("salah77889900@gmail.com");
+		obj.createAccount("salah5566@gmail.com");
 		
 		reg = new RegisterPage(driver);
 		reg.userResgitration("Salah", "Salah", "12345", "Valeo", "Nasr City",
@@ -49,7 +49,7 @@ public class UserResgistrationTest extends TestBase {
 		home.openSignInPage();
 		
 		obj = new AuthenticationPage(driver);
-		obj.createAccount("salah77889900@gmail.com");
+		obj.createAccount("salah5566@gmail.com");
 		
 		
 		String compare = obj.authuntication_flag.getText();
@@ -67,7 +67,7 @@ public class UserResgistrationTest extends TestBase {
 		home.openSignInPage();
 		
 		obj = new AuthenticationPage(driver);
-		obj.createAccount("salah8881@gmail.com");
+		obj.createAccount("salah6677@gmail.com");
 		
 		reg = new RegisterPage(driver);
 		reg.userResgitration("", "", "", "", "", "", "", "", "");
