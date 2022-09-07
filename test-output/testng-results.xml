@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-07T00:09:29 EET" name="Default suite" finished-at="2022-09-07T00:10:05 EET" duration-ms="36837">
+    <groups>
+    </groups>
+    <test started-at="2022-09-07T00:09:29 EET" name="Default test" finished-at="2022-09-07T00:10:05 EET" duration-ms="36837">
+      <class name="test.UserResgistrationTest">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:test.UserResgistrationTest@130c12b7]" started-at="2022-09-07T00:09:17 EET" name="startBrowser" finished-at="2022-09-07T00:09:29 EET" duration-ms="11634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="RegisterWithNullData()[pri:0, instance:test.UserResgistrationTest@130c12b7]" started-at="2022-09-07T00:09:29 EET" name="RegisterWithNullData" finished-at="2022-09-07T00:09:40 EET" duration-ms="10961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithNullData -->
+        <test-method signature="ResgisterWithValidData()[pri:1, instance:test.UserResgistrationTest@130c12b7]" started-at="2022-09-07T00:09:40 EET" name="ResgisterWithValidData" finished-at="2022-09-07T00:09:56 EET" duration-ms="16900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResgisterWithValidData -->
+        <test-method signature="RegisterWithAlreadyRegisteredMail()[pri:2, instance:test.UserResgistrationTest@130c12b7]" started-at="2022-09-07T00:09:56 EET" name="RegisterWithAlreadyRegisteredMail" finished-at="2022-09-07T00:10:05 EET" duration-ms="8943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithAlreadyRegisteredMail -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:test.UserResgistrationTest@130c12b7]" started-at="2022-09-07T00:10:05 EET" name="quit" finished-at="2022-09-07T00:10:06 EET" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- test.UserResgistrationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
